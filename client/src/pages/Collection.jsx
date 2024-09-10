@@ -42,7 +42,7 @@ const Collection = () => {
             productsCopy = productsCopy.filter(item => subCategory.includes(item.subCategory))
         }
         setFilterProducts(productsCopy)
-    }
+    } 
 
     const sortProduct = ()=>{
         let fpCopy = filterProducts.slice()
@@ -55,7 +55,7 @@ const Collection = () => {
                 break;
             default:
                 applyFilter();
-                break;
+                break;  
         }
     }
 

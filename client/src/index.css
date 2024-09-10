@@ -21,3 +21,8 @@ a.active hr{
   ::-webkit-scrollbar{
     display:none ;
   }
+
+  ::selection{
+    background-color: #7f1d1d;
+    color: white;
+  }
