@@ -83,7 +83,7 @@ const Collection = () => {
                             <input type="checkbox" className='w-3' value={'Living Room'} onChange={toggleCategory} />Living Room
                         </p>
                         <p className='flex gap-2'>
-                            <input type="checkbox" className='w-3' value={'Decor'} onChange={toggleCategory} />Decor
+                            <input type="checkbox" className='w-3' value={'Office Room'} onChange={toggleCategory} />Office Room
                         </p>
                         <p className='flex gap-2'>
                             <input type="checkbox" className='w-3' value={'Tables and Chairs'} onChange={toggleCategory} />Tables and Chairs
@@ -98,10 +98,10 @@ const Collection = () => {
                             <input type="checkbox" className='w-3' value={'Sofa'} onChange={toggleSubCategory} />Sofa
                         </p>
                         <p className='flex gap-2'>
-                            <input type="checkbox" className='w-3' value={'Stand'} onChange={toggleSubCategory} />Stand
+                            <input type="checkbox" className='w-3' value={'Bed'} onChange={toggleSubCategory} />Bed
                         </p>
                         <p className='flex gap-2'>
-                            <input type="checkbox" className='w-3' value={'Chairs'} onChange={toggleSubCategory} />Chairs
+                            <input type="checkbox" className='w-3' value={'Chair'} onChange={toggleSubCategory} />Chair
                         </p>
                     </div>
                 </div>
