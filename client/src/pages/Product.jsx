@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { NavLink, useParams } from 'react-router-dom'
+import { Link, NavLink, useParams } from 'react-router-dom'
 import { ShopContext } from '../context/ShopContext'
 import { assets } from '../assets/assets'
 import RelatedProducts from '../components/RelatedProducts'
@@ -64,8 +64,9 @@ const Product = () => {
           <NavLink to='/callback'>
               <button className='bg-black text-white mt-5 mr-5 px-8 py-3 text-sm active:bg-gray-700 rounded-3xl'>Call back</button>
           </NavLink>
-
+            <Link to='https://wa.me/9843937536'>
             <button className='bg-green-600 text-white px-8 py-3 text-sm active:bg-green-500 rounded-3xl'>Whatsapp</button>
+            </Link>
 
             <div className="mt-5">
             {/* Toggle Wishlist Button */}

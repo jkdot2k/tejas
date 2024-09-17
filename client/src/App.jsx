@@ -29,6 +29,7 @@ import Wishlist from './pages/Wishlist'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ScrollToTopButton from './components/ScrollToTopButton'
+import Signup from './pages/Signup'
 
 
 
@@ -66,6 +67,7 @@ const App = () => {
       <Route path='/callback' element={<Callback/>}/>
       <Route path='/wishlist' element={<Wishlist/>}/>
       <Route path='/login' element={<Login/>}/>
+      <Route path='/signup' element={<Signup/>}/>
       <Route path='/orders' element={<Orders/>}/>
       
     </Routes>
